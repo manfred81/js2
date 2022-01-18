@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Homework</title>
-</head>
-<body>
-<!--
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <!--
 Обязательное задание.
 
 Необходимо реализовать четыре функции, каждая функция должна принимать по два
@@ -28,10 +28,33 @@
 
 Необходимо для всех функций прописать комментарии jsdoc https://jsdoc.app/.
 -->
-<script>
-  "use strict";
+    <script>
+      "use strict";
 
-  // Здесь пишем решение, данный комментарий необходимо стереть.
-</script>
-</body>
+      // const a = 2;
+      // const b = 6;
+      // console.log(division(a, b));
+
+      // сложение
+      function sum(a, b) {
+        return a + b;
+      }
+      // вычитание
+      function difference(a, b) {
+        if (a > b) {
+          return a - b;
+        } else if (b > a) {
+          return b - a;
+        }
+      }
+      // умножение
+      function multiplication(a, b) {
+        return a * b;
+      }
+      // деление
+      function division(a, b) {
+        return a / b;
+      }
+    </script>
+  </body>
 </html>
